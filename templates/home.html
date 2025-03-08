@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jayaraj Patil - Personal Website</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background: linear-gradient(135deg, #0f0f0f, #1e1e1e);
+            color: #ffffff;
+        }
+
+        /* Header */
+        header {
+            padding: 20px 0;
+            background: linear-gradient(135deg, #2c003e, #4b0082);
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .intro {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 50px;
+            color: #ffffff;
+        }
+        .profile-pic {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 5px solid #ffd700;
+            box-shadow: 0 0 15px rgba(255, 215, 0, 0.6);
+            transition: transform 0.3s ease;
+        }
+        .profile-pic:hover {
+            transform: scale(1.1);
+        }
+        .info {
+            text-align: left;
+            max-width: 600px;
+            padding-left: 20px;
+        }
+
+        /* About Me Section */
+        #about {
+            padding: 50px;
+            background: linear-gradient(135deg, #1a1a1a, #333333);
+            color: #ffffff;
+            line-height: 1.7;
+            border-radius: 20px;
+            margin: 20px;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+        }
+
+        /* Skills Section */
+        #skills {
+            padding: 50px;
+            background: linear-gradient(135deg, #0077ff, #00b4d8);
+            color: #ffffff;
+        }
+        .skills-container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            max-width: 900px;
+            margin: auto;
+        }
+        .skills-container a {
+            display: block;
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .skills-container a:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+        }
+        .skills-container img {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            border: 4px solid #ffd700;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .skills-container img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 20px #ffd700;
+        }
+
+        /* Footer */
+        footer {
+            background: #222222;
+            color: #ffffff;
+            padding: 15px 0;
+            font-size: 14px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .intro {
+                flex-direction: column;
+                text-align: center;
+            }
+            .profile-pic {
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="intro">
+            <img src="https://github.com/JayarajVp/img/blob/main/images/profile.jpeg?raw=true" alt="Jayaraj Patil" class="profile-pic">
+            <div class="info">
+                <h1>Jayaraj Patil</h1>
+                <p>Email: jayarajvp2005@gmail.com</p>
+                <p>Current Position: BCA Student & Cybersecurity Enthusiast</p>
+            </div>
+        </div>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hello! I'm Jayaraj Patil, a passionate learner and lateral entry BCA student at Seshadripuram College. 
+            My journey in the realm of technology and cybersecurity fuels my curiosity and drive. 
+            I focus on developing modern web applications and researching cybersecurity vulnerabilities, 
+            especially in mobile device security.
+        </p>
+        <p>
+            When I'm not coding or researching, I'm learning new languages like Kotlin and German. 
+            I believe in continuous growth and innovation. Let's connect and build something amazing!
+        </p>
+    </section>
+    
+    <section id="skills">
+        <h2>Main Skills</h2>
+        <div class="skills-container">
+            <a href="cbs/cyber.html">
+                <img src="https://github.com/JayarajVp/img/blob/main/images/cb.jpeg?raw=true" alt="Cybersecurity">
+                <p>Cybersecurity</p>
+            </a>
+            <a href="webdev/webpage.html">
+                <img src="https://github.com/JayarajVp/img/blob/main/images/web.jpeg?raw=true" alt="Web Development">
+                <p>Web Development</p>
+            </a>
+            <a href="oth/other.html">
+                <img src="https://github.com/JayarajVp/img/blob/main/images/oth.jpeg?raw=true" alt="Other Skills">
+                <p>Other Skills</p>
+            </a>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Jayaraj Patil. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
